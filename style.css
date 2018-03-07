@@ -1,69 +1,134 @@
+html, body {
+margin:0;
+}
+
 p {
 	font-family: Arial;
 	color: #000;
 	font-size: 13px;
 	text-align: center;
 }
+
+ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+overflow:hidden;
+}
+
+li {
+font: 13px Arial;
+color: #424949;
+float: left;
+}
+
+li a {
+	display: block;
+	padding: 1px 12px;
+color: #424949;
+}
+
+
+li a:link {
+	text-decoration: none;
+	color: #
+}
+li a:hover {
+	text-decoration: underline;
+	color: blue;
+}
+
+li a:visited {
+	color: purple;
+}
+
+input {
+height: 44px;
+width: 584px;
+border: 1px solid #c8c8c8;
+box-shadow: 3px 3px 7px gray;
+padding-left: 8px;
+font: 16px "Arial";
+font-weight: 700;
+}
+
+
+#topnav {
+	margin: 20px 10px 150px 10px;
+
+}
+
 .logo {
-	margin: 0 auto; 
+	margin: 0 auto;
 	margin-bottom: 20px;
 	text-align: center;
 
 }
 .input {
 	margin: 0 auto;
-	position: relative;	
-	height: 50px;
-	width: 650px;
-	border: 1px solid #c8c8c8;
-	box-shadow: 3px 3px 7px gray;
+	height: 44px;
+	width: 584px;
+margin-bottom: 30px;
 	}
 
-.search {
-margin: 0 auto;
-height: 50px;
-	width: 150px;
-	max-width: 100%;
-	background-color: #e5e7e9;
-	display: inline-block;
-}
-/*.grid {
-	display: inline-grid;
-	margin: 0 auto;
-	grid-template: 1fr / 1fr;
-}*/
-
-.search {
-margin: 0 auto;
-float:all;
-
-height: 50px;
-	width: 150px;
-	max-width: 100%;
-	background-color: #e5e7e9;
-	
+#search_parent{
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.txt {
+.search {
+	margin 0 auto;
+	width: 135px;
+	height: 30px;
+	border: none;
+	background-color: #f2f2f2;
+	font: 13px "Arial";
+	font-weight: bold;
+		color: #757575;
+		box-shadow: none;
+	}
+
+	.search a {
+		display: inline-block;
+    margin: 0px 5px;
+			text-decoration: none;
+}
+
+
+/*.search p {
 font: 14px;
 font-weight: bold;
 padding-top: 3px;
-	color: #424949;
-	text-align: center;
+	color: #757575;
+}*/
+
+.search a:hover {
+color: #000;
+background-color: #fff;
+border: 1px #fff solid;
 }
 
-.footer {
-height: 50px;
-max-width: 100%;
-	background-color: #e5e7e9;
+/*bottom bar*/
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+
+
 }
-ul {
-	list-style-type: none;
-	margin: 0;
+
+#footer ul {
+
+	 background-color: #f3f3f3;
+	border-top: 1px #e3dddd solid;
+	padding: 10px 8px;
+
 }
-li {
-	font: 13px Arial;
-	color: #424949;
-	display: inline-block;
+
+#footer li {
+	padding:0px 3px;
+}
+
+#footer li a {
 
 }
